@@ -2,23 +2,23 @@
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} /* Ya lo pase */
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} /* Ya lo pase */
 
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  color: #212121;
+  color: var(--color--212121--);
   margin: 0;
   padding: 0;
-}
+} /* Ya lo pase */
 
 :root {
   --blue-color: #2196f3;
@@ -36,13 +36,13 @@ body {
   --ventana--modeal: rgba(0, 0, 0, 0.2);
   --background-div-text-images: rgba(47, 48, 58, 0.8);
   --border-form-modal: rgba(33, 33, 33, 0.2);
-}
+} /* Ya lo pase */
 
 .list {
   list-style: none;
   padding-left: 0;
   margin: 0;
-}
+} /* Ya lo pase */
 
 h1,
 h2,
@@ -52,7 +52,7 @@ h5,
 h6,
 p {
   margin: 0;
-}
+} /* Ya lo pase */
 
 /* STYLES PRINCIPAL */
 .container {
@@ -60,21 +60,21 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
-
-.container__header {
-  display: flex;
-}
+} /* Ya lo pase */
 
 .link {
   text-decoration: none;
-}
+} /* Ya lo pase */
 
 /* STYLES OF HEADER */
 
 .header {
   display: flex;
   border-bottom: 1px solid var(--color--header--border);
+}
+
+.container__header {
+  display: flex;
 }
 
 .header__logo {
