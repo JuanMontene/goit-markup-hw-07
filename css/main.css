@@ -59,6 +59,11 @@ p {
   text-decoration: none;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -207,7 +212,7 @@ p {
   fill: var(--blue-color);
 }
 
-.section-general {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
