@@ -205,9 +205,9 @@ p {
 .section-general {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} /* Ya lo puse */
 
-.banner-section {
+.banner {
   /* background-image: url(/images/banner.jpg); */
   background-image: url(/../goit-markup-hw-04/images/banner.jpg);
   background-repeat: no-repeat;
@@ -216,9 +216,9 @@ p {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-}
+} /* Ya lo puse */
 
-.banner-section-tittle {
+.banner__tittle {
   width: 696px;
   margin: auto;
   margin-bottom: 30px;
@@ -228,9 +228,9 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white--color);
-}
+} /* Ya lo puse */
 
-.banner-section-btn {
+.banner__btn {
   text-align: center;
   padding: 10px 32px;
   font-weight: 700;
@@ -242,7 +242,7 @@ p {
   border-color: var(--blue-color);
   color: var(--white--color);
   cursor: pointer;
-}
+} /* Ya lo puse */
 
 /* ESTILOS VENTANA MODAL */
 .backdrop {
