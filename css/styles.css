@@ -256,7 +256,7 @@ p {
   pointer-events: visible;
   background-color: var(--ventana--modeal);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /* ya lo puse */
 
 .modal {
   padding: 40px;
@@ -272,7 +272,7 @@ p {
   border-radius: 4px;
   transform: translate(-50%, -50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /* ya lo puse */
 
 .modal-tittle {
   font-family: 'Roboto';
@@ -284,7 +284,7 @@ p {
   letter-spacing: 0.03em;
   color: var(--color--212121--);
   margin-bottom: 12px;
-}
+} /* ya lo puse */
 
 .tittle-label {
   margin-top: 10px;
@@ -295,7 +295,7 @@ p {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: var(--color--gray--757575);
-}
+} /* ya lo puse */
 
 .close-x {
   position: absolute;
@@ -308,18 +308,18 @@ p {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
-}
+} /* ya lo puse */
 
 .close-icoon {
   position: absolute;
   top: 9px;
   right: 8px;
-}
+} /* ya lo puse */
 
 .close-x:hover .close-icoon,
 .close-x:focus .close-icoon {
   fill: var(--blue-color);
-}
+} /* ya lo puse linea 65 modal*/
 
 /* .close-icoon:hover {
   fill: var(--blue-color);
@@ -329,13 +329,13 @@ p {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-}
+} /* ya lo puse */
 
 .modal-from-input-group {
   position: relative;
   margin-top: 4px;
   margin-bottom: 10px;
-}
+} /* ya lo puse */
 
 .modal-form-input {
   display: block;
@@ -345,12 +345,12 @@ p {
   height: 40px;
   width: 100%;
   padding-left: 42px;
-}
+} /* ya lo puse */
 
 .modal-form-input:focus,
 .modal-form-input:hover {
   border: 1px solid var(--blue-color);
-}
+} /* ya lo puse linea 98 modal */
 
 .modal-form-svg {
   width: 12px;
@@ -360,17 +360,17 @@ p {
   left: 15px;
   fill: var(--color--212121--);
   pointer-events: none;
-}
+} /* ya lo puse */
 
 .modal-form-input:hover + .modal-form-svg,
 .modal-form-input:focus + .modal-form-svg {
   fill: var(--blue-color);
-}
+} /* ya lo puse linea 103 modal */
 
 .label-text {
   display: flex;
   flex-direction: column;
-}
+} /* ya lo puse */
 
 .text-area-modal {
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -380,7 +380,7 @@ p {
   resize: none;
   outline: none;
   height: 120px;
-}
+} /* ya lo puse */
 
 ::placeholder {
   font-family: 'Roboto';
@@ -390,7 +390,7 @@ p {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-}
+} /* ya lo puse */
 
 .container-text {
   font-family: 'Roboto';
@@ -402,7 +402,7 @@ p {
   color: var(--color--gray--757575);
   display: flex;
   align-items: center;
-}
+} /* ya lo puse */
 
 .check-input {
   position: absolute !important;
@@ -412,7 +412,7 @@ p {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
-}
+} /* ya lo puse */
 
 .container-text span {
   font-family: 'Roboto';
@@ -425,7 +425,7 @@ p {
   letter-spacing: 0.03em;
 
   color: var(--color--gray--757575t);
-}
+} /* ya lo puse */
 
 .checkbox-svg {
   position: relative;
@@ -435,7 +435,7 @@ p {
   border-radius: 10%;
   margin-left: 12px;
   cursor: pointer;
-}
+} /* ya lo puse */
 
 .checkbox-svg svg {
   position: absolute;
@@ -443,12 +443,12 @@ p {
   left: 1px;
   width: 12px;
   height: 9px;
-}
+} /* ya lo puse */
 
 .check-input:checked + .checkbox-svg {
   background-color: var(--blue-color);
   border-color: var(--blue-color);
-}
+} /* ya lo puse linea 165 */
 
 .check-input:checked + .checkbox-svg svg path {
   stroke-dasharray: 500;
@@ -456,7 +456,7 @@ p {
   stroke: var(--white--color);
   stroke-width: 3;
   animation: check 4s forwards;
-}
+} /* ya lo puse linea 170 modal */
 
 .checkbox-svg::before {
   content: '';
@@ -467,17 +467,17 @@ p {
   width: 10px;
   height: 10px;
   z-index: -1;
-}
+} /* ya lo puse linea 201 */
 
 .check-input:checked + .checkbox-svg::before {
   animation: ripple 0.3s;
-}
+} /* ya lo puse linea 178 */
 
 @keyframes check {
   to {
     stroke-dashoffset: 0;
   }
-}
+} /* ya lo puse */
 
 .btn-enviar {
   padding: 10px 75px;
@@ -497,8 +497,9 @@ p {
   margin-right: auto;
   margin-top: 10px;
   cursor: pointer;
-}
-/* ESTILOS PARRAFOS*/
+} /* ya lo puse */
+
+/* ESTILOS PARRAFOS - CARACTERISTICAS*/
 
 .boxes-icons-1 {
   text-align: center;
@@ -508,40 +509,42 @@ p {
   padding: 25px 102.34px;
   border-radius: 4px;
   margin-bottom: 30px;
-}
+} /* ya lo puse */
 
 .section--texts--tittles {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
-}
+} /* ya lo puse */
 
 .section--texts--text {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--color--gray--757575);
-}
+} /* ya lo puse */
 
 .section--texts--list--item {
   flex-basis: calc((100% - 90px) / 4);
   /* width: 270px; */
-}
+} /* ya lo puse */
 
 .section--texts--list--item:last-child {
   margin-right: 0;
-}
+} /* ya lo puse */
 
 .list-texts {
   padding-top: 1px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-}
+} /* ya lo puse */
+
 /* ESTULOS A QUE NOS DEDICAMOS*/
+
 .service--section {
   padding-top: 5px;
-}
+} /* ya lo puse */
 
 .service--section--tittle {
   margin-bottom: 55.05px;
@@ -550,21 +553,21 @@ p {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-}
+} /* ya lo puse */
 
 .service-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-}
+} /* ya lo puse */
 
 .list-service-section {
   flex-basis: calc((100% - 60px) / 3);
-}
+} /* ya lo puse */
 
 .boxes-images-1 {
   position: relative;
-}
+} /* ya lo puse */
 
 .images-text {
   display: flex;
@@ -585,33 +588,33 @@ p {
   color: var(--white--color);
   background-color: var(--background-div-text-images);
   padding: 27px 79px;
-}
+} /* ya lo puse */
 
 .boxes-images-2 {
   position: relative;
-}
+} /* ya lo puse */
 
 .boxes-images-3 {
   position: relative;
-}
+} /* ya lo puse */
 
 /* ESTILOS A NUESTRO EQUIPO*/
 
 .section--team {
   text-align: center;
   background-color: var(--background--buttons);
-}
+} /* ya lo puse */
 
 .list-team {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 37px;
-}
+} /* ya lo puse */
 
 .list-section-team {
   flex-basis: calc((100% - 111px) / 4);
-}
+} /* ya lo puse */
 
 .section--team--tittle {
   font-weight: 700;
@@ -620,16 +623,16 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-}
+} /* ya lo puse */
 
 .information-team {
   padding: 30px 32px;
   /* padding: 30px 45px; */
-}
+} /* ya lo puse */
 
 .section--team--profession {
   margin-bottom: 16px;
-}
+} /* ya lo puse */
 
 .social-media {
   display: flex;
@@ -637,11 +640,11 @@ p {
   flex-wrap: wrap;
   gap: 8px;
   padding: 0;
-}
+} /* ya lo puse */
 
 .social-media-list {
   flex-basis: calc((100% - 30px) / 4);
-}
+} /* ya lo puse */
 
 .ellipse {
   display: flex;
@@ -652,21 +655,21 @@ p {
   height: 44px;
   background-color: var(--white--color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /* ya lo puse */
 
 .icon-ellipse {
   fill: var(--color--icons);
-}
+} /* ya lo puse */
 
 .ellipse:hover,
 .ellipse:focus {
   background-color: var(--blue-color);
-}
+} /* ya lo puse */
 
 .ellipse:hover .icon-ellipse,
 .ellipse:focus .icon-ellipse {
   fill: var(--white--color);
-}
+} /* ya lo puse */
 
 .section--team--name--person {
   font-weight: 500;
@@ -675,7 +678,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
-}
+} /* ya lo puse */
 
 .section--team--profession {
   font-size: 16px;
@@ -683,24 +686,24 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color--gray--757575);
-}
+} /* ya lo puse */
 
 .list-section-team {
   background-color: var(--white--color);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-}
+} /* ya lo puse */
 
 .list-section-team:last-child {
   margin-right: 0;
-}
+} /* ya lo puse */
 
 /* ----SECCION CLIENTES ICONOS SVG--- */
 
 .section-clientes {
   padding-top: 59px;
-}
+} /* ya lo puse */
 
 .section-clientes-tittle {
   font-family: 'Roboto';
@@ -712,7 +715,7 @@ p {
   letter-spacing: 0.03em;
   color: var(--color--212121--);
   margin-bottom: 44.02px;
-}
+} /* ya lo puse */
 
 .list-clientes {
   display: flex;
@@ -721,11 +724,11 @@ p {
   gap: 30px;
   padding: 0;
   margin-bottom: 57px;
-}
+} /* ya lo puse */
 
 .list-clientes-item {
   flex-basis: calc((100% - 150px) / 6);
-}
+} /* ya lo puse */
 
 .boxes-clients {
   display: flex;
@@ -738,17 +741,17 @@ p {
   cursor: pointer;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /* ya lo puse */
 
 .icon-clients {
   fill: var(--color--icons);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /* ya lo puse */
 
 .boxes-clients:hover,
 .boxes-clients:focus {
   border: 1px solid var(--blue-color);
-}
+} /* ya lo puse */
 
 .boxes-clients:hover .icon-clients,
 .boxes-clients:focus .icon-clients {
@@ -762,22 +765,22 @@ p {
 .section--buttons {
   padding-top: 106px;
   padding-bottom: 50px;
-}
+} /* ya lo puse */
 
 .list-buttons {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
-}
+} /* ya lo puse */
 
 .section--buttons--item {
   margin-right: 8px;
-}
+} /* ya lo puse */
 
 .section--buttons--item:last-child {
   margin-right: 0;
-}
+} /* ya lo puse */
 
 .section--buttons--generally {
   border: none;
@@ -791,25 +794,25 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /* ya lo puse */
 
 .btn-todo {
   padding: 6px 18px;
-}
+} /* ya lo puse */
 
 .btn-sitios {
   padding: 6px 24px;
-}
+} /* ya lo puse */
 
 .btn-diseño {
   padding: 6px 26px;
-}
+} /* ya lo puse */
 
 .section--buttons--selected {
   background-color: var(--blue-color);
   color: var(--white--color);
   border-radius: 4px;
-}
+} /* ya lo puse */
 
 .section--buttons--generally:hover,
 .section--buttons--generally:focus,
@@ -820,7 +823,7 @@ p {
   border-radius: 4px;
   cursor: pointer;
   color: var(--white--color);
-}
+} /* ya lo puse */
 
 /* IMAGENES CON DESCRPICIÓN */
 
@@ -829,11 +832,11 @@ p {
   flex-wrap: wrap;
   gap: 30px;
   margin-bottom: 82px;
-}
+} /* ya lo puse */
 
 .information-briefcase {
   padding: 20px 24px;
-}
+} /* ya lo puse */
 
 .section--briefcase--tittle {
   font-weight: 700;
@@ -842,7 +845,7 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--color--212121--);
-}
+} /* ya lo puse */
 
 .section--briefcase--tittle--description {
   font-size: 16px;
@@ -850,25 +853,25 @@ p {
   letter-spacing: 0.03em;
   color: var(--color--gray--757575);
   margin: 0;
-}
+} /* ya lo puse */
 
 .section--briefcase--list--item {
   flex-basis: calc((100% - 60px) / 3);
   background-color: var(--white--color);
   border: 1px solid var(--color--header--border);
-}
+} /* ya lo puse */
 
 /* ------- PARTE CON TRANSICION DE IMAGENES------------- */
 
 .enlace-briefcase:hover .text-overlay,
 .enlace-briefcase:focus .text-overlay {
   transform: translateY(0);
-}
+} /* ya lo puse */
 
 .overlay {
   position: relative;
   overflow: hidden;
-}
+} /* ya lo puse */
 
 .text-overlay {
   position: absolute;
@@ -886,7 +889,7 @@ p {
   color: var(--white--color);
   padding: 63px 24px;
   background-color: var(--background-color-cards);
-}
+} /* ya lo puse */
 
 .briefcase-proyects-text p {
   font-family: 'Roboto';
@@ -896,7 +899,7 @@ p {
   line-height: 28px;
   letter-spacing: 0.03em;
   color: var(--white--color);
-}
+} /* ya lo puse */
 
 .section--briefcase--list--item:hover {
   background: var(--white--color);
